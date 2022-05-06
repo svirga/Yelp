@@ -1,0 +1,306 @@
+Screen1 As screen:
+
+    Label19 As label:
+        Text: ="Music Survey"
+        Width: =195
+        X: =194
+        Y: =254
+        ZIndex: =
+
+    TextInput11 As text:
+        HintText: =""
+        Width: =113
+        X: =311
+        Y: =325
+        ZIndex: =
+
+    Checkbox12 As checkbox:
+        CheckboxSize: =25
+        Height: =40
+        Text: ="Pop"
+        Width: =108
+        X: =208
+        Y: =369
+        ZIndex: =
+
+    Checkbox2 As checkbox:
+        CheckboxSize: =25
+        Height: =40
+        Text: ="Classical"
+        Width: =108
+        X: =209
+        Y: =382
+        ZIndex: =
+
+    Checkbox3 As checkbox:
+        CheckboxSize: =25
+        Height: =40
+        Text: ="Rock"
+        Width: =88
+        X: =208
+        Y: =396
+        ZIndex: =
+
+    Checkbox4 As checkbox:
+        CheckboxSize: =25
+        Height: =40
+        Text: ="Folk"
+        Width: =77
+        X: =211
+        Y: =410
+        ZIndex: =
+
+    Checkbox5 As checkbox:
+        CheckboxSize: =25
+        Height: =40
+        Text: ="Rap"
+        Width: =77
+        X: =211
+        Y: =424
+        ZIndex: =
+
+    TextInput13 As text:
+        HintText: =""
+        Width: =395
+        X: =195
+        Y: =631
+        ZIndex: =
+
+    Button9 As button:
+        Text: ="Reset"
+        Width: =61
+        X: =249
+        Y: =690
+        ZIndex: =
+
+    Button8 As button:
+        Text: ="Submit"
+        Width: =67
+        X: =194
+        Y: =693
+        ZIndex: =
+
+    Label18 As label:
+        Text: |-
+            ="Include the following form controls:"
+        Width: =405
+        X: =176
+        Y: =811
+        ZIndex: =
+
+    EditForm1000 As form:
+        AcceptsFocus: =false
+        DefaultMode: =FormMode.New
+        Height: =90
+        NumberOfColumns: =1
+        SnapToColumns: =false
+        Width: =344
+        ZIndex: =
+
+        NameDataCard201 As typedDataCard.textualEditCard:
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =90
+            Visible: =true
+            Width: =115
+            WidthFit: =true
+            X: =194
+            Y: =290
+            ZIndex: =
+
+            NameVerticalContainer200 As groupContainer.verticalAutoLayoutContainer:
+                Height: =Parent.Height
+                LayoutAlignItems: ="flex-start"
+                LayoutDirection: ="column"
+                LayoutJustifyContent: ="flex-start"
+                LayoutMode: ="auto"
+                LayoutWrap: =true
+                PaddingBottom: =5
+                PaddingLeft: =5
+                PaddingRight: =5
+                PaddingTop: =5
+                Width: =Parent.Width
+                ZIndex: =
+
+                Label16 As label:
+                    LayoutMinWidth: =50
+                    Text: |-
+                        ="Name:"
+                    Width: =Parent.Width - (Parent.PaddingRight + Parent.PaddingLeft)
+                    Y: =290
+                    ZIndex: =
+
+                TextInput10 As text:
+                    HintText: =""
+                    LayoutMinWidth: =50
+                    Width: =Parent.Width - (Parent.PaddingRight + Parent.PaddingLeft)
+                    Y: =292
+                    ZIndex: =
+
+        SelectYourFavoriteTy9603DataCard203 As typedDataCard.textualEditCard:
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =90
+            Visible: =true
+            Width: =260
+            WidthFit: =true
+            X: =198
+            Y: =321
+            ZIndex: =
+
+            SelectYourFavoriteTy9603VerticalContainer202 As groupContainer.verticalAutoLayoutContainer:
+                Height: =Parent.Height
+                LayoutAlignItems: ="flex-start"
+                LayoutDirection: ="column"
+                LayoutJustifyContent: ="flex-start"
+                LayoutMode: ="auto"
+                LayoutWrap: =true
+                PaddingBottom: =5
+                PaddingLeft: =5
+                PaddingRight: =5
+                PaddingTop: =5
+                Width: =Parent.Width
+                ZIndex: =
+
+                TextInput1 As text:
+                    HintText: |-
+                        ="E-Mail:"
+                    LayoutMinWidth: =50
+                    Width: =Parent.Width - (Parent.PaddingRight + Parent.PaddingLeft)
+                    Y: =321
+                    ZIndex: =
+
+                Label20 As label:
+                    LayoutMinWidth: =50
+                    Text: |-
+                        ="Select Your Favorite Types of Music:"
+                    Width: =Parent.Width - (Parent.PaddingRight + Parent.PaddingLeft)
+                    Y: =350
+                    ZIndex: =
+
+        Selecthowoftenyoupur6675DataCard205 As typedDataCard.textualEditCard:
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =90
+            Visible: =true
+            Width: =305
+            WidthFit: =true
+            X: =207
+            Y: =437
+            ZIndex: =
+
+            Selecthowoftenyoupur6675VerticalContainer204 As groupContainer.verticalAutoLayoutContainer:
+                Height: =Parent.Height
+                LayoutAlignItems: ="flex-start"
+                LayoutDirection: ="column"
+                LayoutJustifyContent: ="flex-start"
+                LayoutMode: ="auto"
+                LayoutWrap: =true
+                PaddingBottom: =5
+                PaddingLeft: =5
+                PaddingRight: =5
+                PaddingTop: =5
+                Width: =Parent.Width
+                ZIndex: =
+
+                Checkbox6 As checkbox:
+                    CheckboxSize: =25
+                    Height: =40
+                    Text: ="Other"
+                    Width: =Parent.Width - (Parent.PaddingRight + Parent.PaddingLeft)
+                    Y: =437
+                    ZIndex: =
+
+                Label17 As label:
+                    LayoutMinWidth: =50
+                    Text: |-
+                        ="Select how often you purchase Music CDs:"
+                    Width: =Parent.Width - (Parent.PaddingRight + Parent.PaddingLeft)
+                    Y: =460
+                    ZIndex: =
+
+        Selectthelocationsyo1288DataCard207 As typedDataCard.textualEditCard:
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =90
+            Visible: =true
+            Width: =291
+            WidthFit: =true
+            X: =202
+            Y: =485
+            ZIndex: =
+
+            Selectthelocationsyo1288VerticalContainer206 As groupContainer.verticalAutoLayoutContainer:
+                Height: =Parent.Height
+                LayoutAlignItems: ="flex-start"
+                LayoutDirection: ="column"
+                LayoutJustifyContent: ="flex-start"
+                LayoutMode: ="auto"
+                LayoutWrap: =true
+                PaddingBottom: =5
+                PaddingLeft: =5
+                PaddingRight: =5
+                PaddingTop: =5
+                Width: =Parent.Width
+                ZIndex: =
+
+                Radio7 As radio:
+                    Height: =40
+                    Items: =["Weekly", "· A few CDs each year", "Monthly", "· Never purchase"]
+                    Layout: =Horizontal
+                    LineHeight: =1
+                    PaddingBottom: =5
+                    PaddingTop: =5
+                    RadioSize: =25
+                    Width: =Parent.Width - (Parent.PaddingRight + Parent.PaddingLeft)
+                    Y: =485
+                    ZIndex: =
+
+                Label21 As label:
+                    LayoutMinWidth: =50
+                    Text: |-
+                        ="Select the locations you listen to Music:"
+                    Width: =Parent.Width - (Parent.PaddingRight + Parent.PaddingLeft)
+                    Y: =556
+                    ZIndex: =
+
+        Whatroledoesmusicpla2116DataCard209 As typedDataCard.textualEditCard:
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =90
+            Visible: =true
+            Width: =303
+            WidthFit: =true
+            X: =199
+            Y: =567
+            ZIndex: =
+
+            Whatroledoesmusicpla2116VerticalContainer208 As groupContainer.verticalAutoLayoutContainer:
+                Height: =Parent.Height
+                LayoutAlignItems: ="flex-start"
+                LayoutDirection: ="column"
+                LayoutJustifyContent: ="flex-start"
+                LayoutMode: ="auto"
+                LayoutWrap: =true
+                PaddingBottom: =5
+                PaddingLeft: =5
+                PaddingRight: =5
+                PaddingTop: =5
+                Width: =Parent.Width
+                ZIndex: =
+
+                DropDown14 As dropdown:
+                    Items: =["At home", "In the car", "Anywhere (MP3 Player)"]
+                    Width: =Parent.Width - (Parent.PaddingRight + Parent.PaddingLeft)
+                    Y: =567
+                    ZIndex: =
+
+                Label22 As label:
+                    LayoutMinWidth: =50
+                    Text: ="What role does music play in your life?"
+                    Width: =Parent.Width - (Parent.PaddingRight + Parent.PaddingLeft)
+                    Y: =613
+                    ZIndex: =
+
+    Rectangle15 As rectangle:
+        Height: =30
+        Width: =140
+        X: =410
+        Y: =260
+        ZIndex: =1
+
