@@ -297,10 +297,3 @@ Screen1 As screen:
                     Y: =613
                     ZIndex: =
 
-    Rectangle15 As rectangle:
-        Height: =30
-        Width: =140
-        X: =410
-        Y: =260
-        ZIndex: =1
-
